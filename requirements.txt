@@ -1,6 +1,6 @@
 Django==4.2
 psycopg2-binary==2.9.7
 beautifulsoup4==4.12.2
-requests==2.31.0
+requests==2.25.1
 lxml==4.9.3
 supervisor==4.2.5
