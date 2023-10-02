@@ -5,7 +5,7 @@ import requests
 
 
 def test(request):
-    r = requests.get('https://pypi.org/project/beautifulsoup4/s')
+    r = requests.get('https://pypi.org/project/beautifulsoup4/')
     soup = BeautifulSoup(r.text, 'lxml')
     print(soup.title.string)
     return HttpResponse("hello")
