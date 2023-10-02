@@ -3,6 +3,7 @@ os: linux
 files:
  - source: .
    destination: /home/ec2-user/django-web-scrapper-aws-docker
+   overwrite: true
 hooks:
   # AfterInstall:
   #  - location: scripts/install_app_dependencies
