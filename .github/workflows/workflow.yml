@@ -40,6 +40,14 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - name: Debug Information
+          run: |
+            echo "GitHub Repository: ${{ github.repository }}"
+            echo "Commit SHA: ${{ github.sha }}"
+            echo "${{ secrets.AWS_ACCESS_KEY_ID }}"
+            echo "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+            aws --version
+
       - name: Create CodeDeploy Deployment
         id: deploy
         run: |
