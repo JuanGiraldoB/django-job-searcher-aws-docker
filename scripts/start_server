@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ec2-user/django-web-scrapper-aws-docker
-supervisord -c supervisord.conf
+supervisor -c supervisord.conf
