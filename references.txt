@@ -1,3 +1,4 @@
 https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/
 https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e
 https://www.cyberciti.biz/faq/how-to-install-docker-on-amazon-linux-2/
+https://stackoverflow.com/questions/25121838/supervisor-on-debian-wheezy-another-program-is-already-listening-on-a-port-that
