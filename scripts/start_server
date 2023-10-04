@@ -1,3 +1,10 @@
 #!/bin/bash
 cd /home/ec2-user/django-web-scrapper-aws-docker
-sudo supervisord -c supervisord.conf
+
+# Check if Supervisor is already running
+if ! pgrep supervisord > /dev/null; then
+    # If not running, start Supervisor
+    sudo supervisord -c supervisord.conf
+else
+    echo "Supervisor is already running."
+fi
