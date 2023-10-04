@@ -1,0 +1,58 @@
+{
+	"data": [
+		{
+			"id": "full-stack-nimbi-santiago",
+			"type": "public_job",
+			"attributes": {
+				"title": "Full-Stack",
+				"description_headline": "Requerimientos del cargo:",
+				"functions_headline": "Funciones del cargo:",
+				"functions": "<p>- Análisis del Negocio: Serás responsable de interactuar directamente con los usuarios de la solución para levantar los procesos que existen actualmente, entendiendo los principales dolores, desafíos y oportunidades. Deberás documentar y diagramar los procesos, considerando las personas, sistemas y sus interacciones.<br>- Diseño de Prototipos: Serás responsable de, en base al análisis del negocio, identificar oportunidades y diseñar prototipos (MVP) a construir en Python.<br>- Implementación en Python de la solución: Serás responsable de, en base a los prototipos y utilizando una metodología ágil (scrum), desarrollar la solución en base a sprints.<br>- Puesta en Marcha (deployment): Serás responsable de liberar (de forma iterativa e incremental) la solución en el ambiente de producción. <br>- Administración de la Infraestructura: Serás responsable de administrar la infraestructura que estará montada en Amazon Web Services (AWS).</p>",
+				"benefits_headline": "Beneficios",
+				"benefits": "<p>Nuestra oficina está dentro de CasaCo, un cowork para empresas en etapa de crecimiento, en donde estamos conectados con lo que está pasando en el mundo del emprendimiento tecnológico en Chile, en donde vivimos realmente la experiencia de estar en la punta de la lanza en cuanto a tecnología.</p>",
+				"desirable_headline": "Conocimientos opcionales:",
+				"desirable": "<p>Experiencia con UX.<br>Experiencia en Scrum.<br>Implementación entornos de desarrollo y producción.<br>Experiencia con frameworks de testing funcionales y testing de carga.</p>",
+				"remote": false,
+				"remote_modality": "no_remote",
+				"remote_zone": null,
+				"country": "Chile",
+				"category_name": "Programming",
+				"perks": ["informal_dresscode"],
+				"min_salary": 2700,
+				"max_salary": 3300,
+				"modality": "Full time",
+				"seniority": "Senior",
+				"published_at": 1581097241,
+				"company": {
+					"data": {
+						"id": "nimbi",
+						"type": "company",
+						"attributes": {
+							"name": "Nimbi",
+							"description": "Nimbi es una plataforma de Gestión de Aprendizaje para la educación superior que quiere romper el Status Quo Educacional Latinoaméricano",
+							"long_description": "<p>Cada día más instituciones de educación superior adoptan nuevas tecnologías para que profesores gestionen cursos.</p><p>Desde la intranet universitaria, plataformas colaborativas y otras que sirven para estudiar. Estas caras plataformas no conversan entre ellas y hay que contratarlas por separado. En Chile somos los más rápidos de Latinoamérica en adoptar tecnologías, no siendo así en educación superior. Plataformas antiguas, ineficientes y poco intuitivas. Gestionar cursos que es lo básico no se logra y universidades pierden su inversión.</p><p>Conozcan Nimbi una plataforma eficiente, amigable y completa. Combina tecnología de la cual estamos siendo privados por precio con nuestra salsa secreta: usuarios trabajan de manera ágil dentro de la plataforma (tomando notas, subrayando, modificando archivos, etc.) y gestiona la agenda social y académica universitaria en un mismo portal. Ya no necesitaras plataformas alternativas.</p><p>Piensa en Nimbi como en una sala de clases. En ella puedes hacer todo lo que haces dentro de ella, solo que mejor y muchas otras cosas que no podías hacer.</p><p>Enseñar y aprender es lo que hacen los usuarios. Hacer que sea más simple, inteligente y transformativo es lo que hace Nimbi.</p>",
+							"projects": "<p>La misión de Nimbi es combatir (y erradicar) la deserción estudiantil en las universidades, y creemos que la tecnología es un pilar fundamental para el desarrollo de soluciones innovadoras, escalables y de alto impacto.</p><p>Actualmente estamos desarrollando un modelo de Machine Learning orientado a la predicción de la deserción, y estamos comenzando a crear un software (Saas) orientado a la gestión integral de la deserción en una sola plataforma.</p><p>Serás parte del desarrollo de este emprendimiento desde su origen, y aprenderás como se conceptualizan y desarrollan productos basados en tecnología desde cero. Para esto, ya contamos con nuestro primer cliente, quien nos ha abierto las puertas para desarrollar nuestras soluciones en contacto directo con los usuarios finales, trabajaremos codo a codo con ellos.&nbsp;</p>",
+							"benefits": "<p>Nuestra oficina está dentro de CasaCo, un cowork para empresas en etapa de crecimiento, en donde estamos conectados con lo que está pasando en el mundo del emprendimiento tecnológico en Chile, en donde vivimos realmente la experiencia de estar en la punta de la lanza en cuanto a tecnología.</p>",
+							"web": "http://www.nimbi.cl",
+							"twitter": "",
+							"github": "",
+							"facebook": "",
+							"angellist": "",
+							"logo": {
+								"url": "https://getonbrd-dev.s3.amazonaws.com/uploads/users/logo/6468/logo.png",
+								"thumb": {
+									"url": "https://getonbrd-dev.s3.amazonaws.com/uploads/users/logo/6468/thumb_logo.png"
+								}
+							},
+							"country": "CL"
+						},
+						"relationships": {}
+					}
+				}
+			},
+			"links": {
+				"public_url": "https://www.getonbrd.com/jobs/full-stack-nimbi-santiago"
+			}
+		}
+	]
+}

@@ -1,5 +1,5 @@
 """
-ASGI config for web_scrapper project.
+ASGI config for jobsearcher project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'web_scrapper.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jobsearcher.settings')
 
 application = get_asgi_application()

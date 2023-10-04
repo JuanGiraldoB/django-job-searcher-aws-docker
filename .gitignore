@@ -165,3 +165,6 @@ data
 
 # AWS key
 *.pem
+
+# steps
+steps.txt

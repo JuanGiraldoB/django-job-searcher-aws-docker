@@ -1,5 +1,5 @@
 """
-WSGI config for web_scrapper project.
+WSGI config for jobsearcher project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'web_scrapper.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jobsearcher.settings')
 
 application = get_wsgi_application()
