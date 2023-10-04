@@ -28,14 +28,3 @@ class GetOnBoardAPI:
             return response.json()
         else:
             return None
-
-    def get_companies(self, per_page=100, page=1):
-        endpoint = "/companies"
-        params = {"per_page": per_page, "page": page}
-
-        response = requests.get(f"{self.BASE_URL}{endpoint}", params=params)
-
-        if response.status_code == 200:
-            return response.json()
-        else:
-            return None

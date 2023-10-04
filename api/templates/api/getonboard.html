@@ -11,7 +11,7 @@
     <h1>Categories</h1>
     <ul>
         {% for category in categories %}
-        <li><a href="{% url 'jobs-by-category' category.id %}">{{ category.id }}</a></li>
+        <li><a href="{% url 'jobs-by-category' category_id=category.id %}">{{ category.id }}</a></li>
         {% endfor %}
     </ul>
 </body>

@@ -8,13 +8,22 @@
 
 <body>
     <h1>{{ category }} Jobs</h1>
+    <form method="GET" action="{% url 'jobs-by-category' category_id=category %}">
+        <label for="min_salary">Minimum Salary:</label>
+        <input type="number" name="min_salary" id="min_salary">
+        <br>
+
+        <input type="submit" value="Apply Filter">
+    </form>
     <ul>
-        {% for job in jobs.data %}
+        {% for job in jobs %}
         <li>{{ job.attributes.title }} - <a href={{job.links.public_url}}>Job Link</a></li>
 
         {% if job.attributes.min_salary %}
         <p>Minium salary: {{job.attributes.min_salary}} - USD</p>
         <p>Maximum salary: {{job.attributes.max_salary}} - USD</p>
+        {% else %}
+        <p>No salary specified.</p>
         {% endif %}
         <br>
         {% endfor %}
